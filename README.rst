@@ -15,3 +15,7 @@ Contributing
 ============
 
 For information on how to contribute and what rules should be followed, please refer to `CONTRIBUTING.rst <https://github.com/JFxMachina/MDCode/blob/main/CONTRIBUTING.rst>`_.
+
+
+..
+  # NOTE: suggestions for other useful documents can be found in https://github.com/joelparkerhenderson/github-special-files-and-paths
