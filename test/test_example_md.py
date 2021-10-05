@@ -1,6 +1,7 @@
 from mdcode.example.md import calcenergy
 
 def test_calcenergy():
+    """Phony test for calcenergy to test if automated testing is working."""
     # Use Asap for a huge performance increase if it is installed
     use_asap = True
 
