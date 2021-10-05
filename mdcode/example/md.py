@@ -1,4 +1,4 @@
-"""Example that demonstrates molecular dynamics with constant energy."""
+"""An example that demonstrates molecular dynamics with constant energy."""
 
 from asap3 import Trajectory
 from ase.lattice.cubic import FaceCenteredCubic
