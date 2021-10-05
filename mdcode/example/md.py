@@ -1,4 +1,4 @@
-"""Demonstrates molecular dynamics with constant energy."""
+"""Example that demonstrates molecular dynamics with constant energy."""
 
 from asap3 import Trajectory
 from ase.lattice.cubic import FaceCenteredCubic
@@ -18,6 +18,7 @@ else:
 
 
 def calcenergy(atoms):
+    """Calculate the potential, kinetic and total energy per atom."""
     epot = atoms.get_potential_energy() / len(atoms)
     ekin = atoms.get_kinetic_energy() / len(atoms)
     Tinst = ekin / (1.5 * units.kB)
@@ -26,6 +27,7 @@ def calcenergy(atoms):
 
 
 def run_md():
+    """Run an example MD simulation for a Cu fcc crystal."""
     # Set up a crystal
     atoms = FaceCenteredCubic(directions=[[1, 0, 0], [0, 1, 0], [0, 0, 1]],
                               symbol="Cu",
@@ -44,7 +46,7 @@ def run_md():
     
     
     def printenergy(a=atoms):  # store a reference to atoms in the definition.
-        """Function to print the potential, kinetic and total energy."""
+        """Print the potential, kinetic and total energy per atom."""
         res = calcenergy(a)
         print('Energy per atom: Epot = %.3feV  Ekin = %.3feV (T=%3.0fK)  '
               'Etot = %.3feV' % res)
