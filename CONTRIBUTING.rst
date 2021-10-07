@@ -144,5 +144,10 @@ For a quick guide on writing reStructuredText, please refer to the `Sphinx and R
 
 Reviewers should check, whether code submitted in pull requests has sufficient documentation coverage.
 
+To build the documentation locally, go to the doc directory and run
+::
+
+	source run_sphinx.sh
+
 .. rubic:: Footnotes
 .. [#f1] If it improves readability lower_with_under can be used for modules as well.
