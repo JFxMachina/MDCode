@@ -13,7 +13,7 @@ Git Workflow
 
 The MDCode project uses a `Shared Repository Model <https://docs.github.com/en/github/collaborating-with-pull-requests/getting-started/about-collaborative-development-models>`_.
 Contributors can open different branches (e.g. feature, bugfix, experimental) of this repository and commit on, push to, pull from them. Once their work on said branch is done, a `Pull Request <https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests>`_ is submitted to merge into the development (`dev <https://github.com/JFxMachina/MDCode/dev>`_) branch.
-Pull requests for the `dev <https://github.com/JFxMachina/MDCode/dev>`_ branch require at least two reviews to be accepted. Pull requests into the `main <https://github.com/JFxMachina/MDCode/main>`_ are only allowd from the `dev <https://github.com/JFxMachina/MDCode/dev>`_ branch and require at least three reviews to be accepeted. 
+Pull requests for the `dev <https://github.com/JFxMachina/MDCode/dev>`__ branch require at least two reviews to be accepted. Pull requests into the `main <https://github.com/JFxMachina/MDCode/main>`__ are only allowd from the `dev <https://github.com/JFxMachina/MDCode/dev>`__ branch and require at least three reviews to be accepeted. 
 
 Branching
 ---------
@@ -39,13 +39,13 @@ Commits
 
 Commits should cover individual but complete changes to the code base. E.g. when adding a module, commits should encompass the creation of for example a function, a class, or functionality. I.e. commit once your work on a code unit is done, and not mid way through editing. A good rule of thumb is, that you should be able to describe the changes in a simple sentence without having to go into too much details.
 
-Commit messages should be as short as possible while still adequately describing the changes made and can either be made up of only a subject (brief description) or a subject and a body (detailed description). The subject should be written in the imperative form with the first letter capitalized and no punctuation at the end of the message. For reference, the reader is encouraged to take a look at `this blog post<https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide>`_.
+Commit messages should be as short as possible while still adequately describing the changes made and can either be made up of only a subject (brief description) or a subject and a body (detailed description). The subject should be written in the imperative form with the first letter capitalized and no punctuation at the end of the message. For reference, the reader is encouraged to take a look at `this blog post <https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide>`_.
 
 Pull Requests
 -------------
 
-Pull requests into the `dev <https://github.com/JFxMachina/MDCode/tree/dev>`_ branch should (generally) only be issued once work on one or more issues is complete. They will generally only be granted once all tests are passed and the changes have been reviewd by two individual contributors (Exceptions can be made).
-Pull requests into the `main <https://github.com/JFxMachina/MDCode/tree/main`_ branch are only accepted from the dev branch and require reviews by three individual contributors.
+Pull requests into the `dev <https://github.com/JFxMachina/MDCode/dev/>`__ branch should (generally) only be issued once work on one or more issues is complete. They will generally only be granted once all tests are passed and the changes have been reviewed by two individual contributors (Exceptions can be made).
+Pull requests into the `main <https://github.com/JFxMachina/MDCode/main/>`__ branch are only accepted from the dev branch and require reviews by three individual contributors.
 
 If the pull request closes some issue, it should be marked in the message.
 
@@ -55,21 +55,22 @@ Coding Standard
 Style Guide
 -----------
 
-Contributions should (within reason!) adhere to the `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`_ style guide for python code.
+Contributions should (within reason!) adhere to the `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`__ style guide for python code.
 For this purpose using the `pycodestyle <https://pypi.org/project/pycodestyle/>`_ is recommended.
 Contributors are encouraged to skim over the `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`_ and to refer to it in case of uncertantiy.
 
 Naming conventions
 ^^^^^^^^^^^^^^^^^^
 
-The PEP8 naming conventions are summarized bellow:
+The `PEP 8 <https://www.python.org/dev/peps/pep-0008/>`__ naming conventions are summarized bellow:
+
 
 +----------------------------+--------------------+---------------------+
 | Type                       | Public             | Internal            |
 +============================+====================+=====================+
 | Packages                   | lower              |                     |
 +----------------------------+--------------------+---------------------+
-| Modules                    | lower[#f1]         | _lower[#f1]         |
+| Modules                    | lower              | _lower              |
 +----------------------------+--------------------+---------------------+
 | Classes                    | CapWords           | _CapWords           |
 +----------------------------+--------------------+---------------------+
@@ -90,10 +91,13 @@ The PEP8 naming conventions are summarized bellow:
 | Local Variables            | lower_with_under   |                     |
 +----------------------------+--------------------+---------------------+
 
+
+If it improves readability lower_with_under can be used for modules as well.
+
 Module imports
 ^^^^^^^^^^^^^^
 
-Star imports eg.
+Star (``*``) imports eg.
 ::
 
 	from <somepackage>.<some_module> import *
@@ -118,8 +122,7 @@ If, on the other hand, the test module only contains tests for a specific part o
 
 	'tests/<somepackage>/<some_module>_<SomeClass>_test.py'
 
-or
-::
+or::
 
 	'tests/<somepackage>/<some_module>_<some_function>_test.py'
 
@@ -130,6 +133,9 @@ To run the tests, call pytest from the project root directory.
 Documentation
 -------------
 
+Inline Documentation
+^^^^^^^^^^^^^^^^^^^^
+
 Inline documentation for new code units should be written in parallel to the code units themselves.
 While docstrings for small code units (functions, classes etc.) that are only used within the module can be omitted,
 all code units that are accessed from other modules or scripts should at least have a basic docstring.
@@ -139,7 +145,7 @@ If arguments are modified by the function, it should be noted as well.
 
 For classes the docstring should contain a brief and an extended description. Eventual class and instance attributes should be documented as well.
 
-For more information on how to proprely document python code, contributors are encouraged to skim overthe section on comments in `PEP 8 <https://www.python.org/dev/peps/pep-0008/#comments>`_, `PEP 257 - Docstring Conventrions <https://www.python.org/dev/peps/pep-0257/>`_, and the section on Abstract Syntax Mining in `PEP 258 <https://www.python.org/dev/peps/pep-0258/#ast-mining>`_ in which the types of docstrings that are included in automatic documentation generation are explained.
+For more information on how to proprely document python code, contributors are encouraged to skim overthe section on comments in `PEP 8 <https://www.python.org/dev/peps/pep-0008/#comments>`__, `PEP 257 - Docstring Conventrions <https://www.python.org/dev/peps/pep-0257/>`_, and the section on Abstract Syntax Mining in `PEP 258 <https://www.python.org/dev/peps/pep-0258/#ast-mining>`_ in which the types of docstrings that are included in automatic documentation generation are explained.
 For a quick guide on writing reStructuredText, please refer to the `Sphinx and RST syntax guide <https://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html>`_.
 
 Reviewers should check, whether code submitted in pull requests has sufficient documentation coverage.
@@ -149,5 +155,21 @@ To build the documentation locally, go to the doc directory and run
 
 	source run_sphinx.sh
 
-.. rubic:: Footnotes
-.. [#f1] If it improves readability lower_with_under can be used for modules as well.
+Code Tags
+^^^^^^^^^
+
+Code annotation using code tags is encouraged. For a quick overview of the idea, please refer to`PEP350 (rejected) <https://www.python.org/dev/peps/pep-0350/>`__.
+
+Code tags used in this code base are:
+
+* TODO (To do: Informal tasks/features that are pending completion.)
+* FIXME (Fix me: Areas of problematic or ugly code needing refactoring or cleanup.)
+* NOTE (Notes: Something readers should know. General catch all tag.)
+* BUG (Bugs: Reported defects tracked in bug database.)
+* SEE (See: Pointers to other code, web link, etc.)
+* TEST (Tests: Requires testing.)
+* IDEA (Ideas: Possible future enhancement.)
+* ??? (Questions: Something is not clear.)
+* !!! (Alerts: Needs attention.)
+
+Contributors are asked to stick to these without variation, as having a list of the actually used code tags allows for quick lookup e.g. using grep. However suggestions for additions are welcome.
