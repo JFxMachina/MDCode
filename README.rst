@@ -11,6 +11,11 @@ WIP
 ..
   # FIXME : Add user's guide.
 
+Documentation
+=============
+
+Check out the documentation on `Read-The-Docs <https://mdcode.readthedocs.io/en/dev/index.html>`_!
+
 Contributing
 ============
 
