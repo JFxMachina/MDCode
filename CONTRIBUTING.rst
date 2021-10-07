@@ -6,7 +6,9 @@ Introduction
 
 To assure code quality and maintainability as well as tidiness of the repository, a few rules to be followed by contributors are in place.
 This is especially important, since the goal of this project is to learn about, and gain experience in *collaborative* software development.
-Contributors are thus asked to read and follow the instructions laid out in this document. 
+Contributors are thus asked to read and follow the instructions laid out in this document.
+
+Since this is a course project, contributions from external contributors cannot be accepted at the moment.
 
 Git Workflow
 ============
