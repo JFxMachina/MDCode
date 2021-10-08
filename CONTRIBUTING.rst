@@ -160,7 +160,7 @@ To build the documentation locally, go to the doc directory and run
 Code Tags
 ^^^^^^^^^
 
-Code annotation using code tags is encouraged. For a quick overview of the idea, please refer to`PEP350 (rejected) <https://www.python.org/dev/peps/pep-0350/>`__.
+Code annotation using code tags is encouraged. For a quick overview of the idea, please refer to `PEP350 (rejected) <https://www.python.org/dev/peps/pep-0350/>`__.
 
 Code tags used in this code base are:
 
@@ -175,3 +175,24 @@ Code tags used in this code base are:
 * !!! (Alerts: Needs attention.)
 
 Contributors are asked to stick to these without variation, as having a list of the actually used code tags allows for quick lookup e.g. using grep. However suggestions for additions are welcome.
+
+Useful links and references
+===========================
+
+* `GitHub Docs <https://docs.github.com/en>`__
+* `Git Pro <https://git-scm.com/book/en/v2>`__ and `Git Reference Manual <https://git-scm.com/docs>`__
+
+* `Sphinx and RST Syntax Guide <https://thomas-cokelaer.info/tutorials/sphinx/index.html>`__
+* `DOCX 2 RST Converter <https://alldocs.app/convert-word-docx-to-restructured-text>`__
+
+* `The Hitchhiker's Guide to Python <https://docs.python-guide.org/>`__
+* `The Python Language Reference <https://docs.python.org/3/reference/>`__
+* `PEP 8 - Style Guide for Python Code <https://www.python.org/dev/peps/pep-0008/>`__
+
+* `SPHINX Python Documentation Generator <https://www.sphinx-doc.org/en/master/>`__
+* `PyTest Documentation <https://docs.pytest.org/>`__
+
+* `ASE (Atomic Simulation Environment) <https://wiki.fysik.dtu.dk/ase/>`__
+* `ASAP <https://wiki.fysik.dtu.dk/asap>`__
+
+* `CSEP course Page <https://mdi.gitlab-pages.liu.se/collab_proj_course.html>`__
