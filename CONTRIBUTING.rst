@@ -190,7 +190,7 @@ Useful links and references
 * `PEP 8 - Style Guide for Python Code <https://www.python.org/dev/peps/pep-0008/>`__
 
 * `SPHINX Python Documentation Generator <https://www.sphinx-doc.org/en/master/>`__
-* `PyTest Documentation<https://docs.pytest.org/>`__
+* `PyTest Documentation <https://docs.pytest.org/>`__
 
 * `ASE (Atomic Simulation Environment) <https://wiki.fysik.dtu.dk/ase/>`__
 * `ASAP <https://wiki.fysik.dtu.dk/asap>`__
