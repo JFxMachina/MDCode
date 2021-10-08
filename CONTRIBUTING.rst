@@ -160,7 +160,7 @@ To build the documentation locally, go to the doc directory and run
 Code Tags
 ^^^^^^^^^
 
-Code annotation using code tags is encouraged. For a quick overview of the idea, please refer to`PEP350 (rejected) <https://www.python.org/dev/peps/pep-0350/>`__.
+Code annotation using code tags is encouraged. For a quick overview of the idea, please refer to `PEP350 (rejected) <https://www.python.org/dev/peps/pep-0350/>`__.
 
 Code tags used in this code base are:
 
