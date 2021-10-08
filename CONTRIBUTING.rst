@@ -183,6 +183,7 @@ Useful links and references
 * `Git Pro <https://git-scm.com/book/en/v2>`__ and `Git Reference Manual <https://git-scm.com/docs>`__
 
 * `Sphinx and RST Syntax Guide <https://thomas-cokelaer.info/tutorials/sphinx/index.html>`__
+* `DOCX 2 RST Converter <https://alldocs.app/convert-word-docx-to-restructured-text>`__
 
 * `The Hitchhiker's Guide to Python <https://docs.python-guide.org/>`__
 * `The Python Language Reference <https://docs.python.org/3/reference/>`__
