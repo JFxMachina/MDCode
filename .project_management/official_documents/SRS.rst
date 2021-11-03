@@ -21,17 +21,14 @@ Involved Parties
 
 **Project team**:
 
-Chi Xiao Project leader, Developer
-
-Utkarsh Singh Scrum master, Developer
-
-Joel Fischer Product owner, Developer
-
-Mehdi Nourazar Testing responsible, Developer
-
-Daniel Shafizadeh Documentation keeper, Developer
-
-Gabriel Persson Developer
+==================== ================================
+Chi Xiao             Project leader, Developer
+Utkarsh Singh        Scrum master, Developer
+Joel Fischer         Product owner, Developer
+Mehdi Nourazar       Testing responsible, Developer
+Danial Shafizadeh    Documentation keeper, Developer
+Gabriel Persson      Developer
+==================== ================================
 
 Introduction
 ============
