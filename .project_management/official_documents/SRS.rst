@@ -175,7 +175,7 @@ MD simulation / Core System
 |   |          | simulate a single material when        |           |
 |   |          | provided with input of the specified   |           |
 |   |          | form                                   |           |
-+===+==========+========================================+===========+
++---+----------+----------------------------------------+-----------+
 |   | Original | The MD program can sequentially        | Very High |
 |   |          | simulate batches of materials          |           |
 +---+----------+----------------------------------------+-----------+
@@ -198,7 +198,7 @@ Pre-processing / Database scraper
 |   |                | than can be handled      |        |
 |   |                | manually) set of         |        |
 |   |                | hypothetical materials   |        |
-+===+================+==========================+========+
++---+----------------+--------------------------+--------+
 |   | Initial Review | Have an interface to at  | High   |
 |   |                | least one of the         |        |
 |   |                | following                |        |
@@ -229,7 +229,7 @@ Post-processing / Analysis
 |   |          | and visualize interesting information  |           |
 |   |          | about the simulated materials from the |           |
 |   |          | MD program output                      |           |
-+===+==========+========================================+===========+
++---+----------+----------------------------------------+-----------+
 |   | Original | The post-processing module can find    | High      |
 |   |          | and visualize correlations in a large  |           |
 |   |          | set of simulated materials             |           |
@@ -273,7 +273,7 @@ Input dataset
 +---+----------+-------------------------------------------+--------+
 |   | Original | The input dataset consists of at least    | Medium |
 |   |          | 100 hypothetical materials                |        |
-+===+==========+===========================================+========+
++---+----------+-------------------------------------------+--------+
 |   | Original | The input dataset is chosen               | Medium |
 |   |          | systematically (promising or interesting  |        |
 |   |          | and previously unexplored materials)      |        |
@@ -299,7 +299,7 @@ Final Report and Presentation
 +---+----------+-------------------------------------------+--------+
 |   | Original | The final report covers the code (design  | High   |
 |   |          | and implementation specifics)             |        |
-+===+==========+===========================================+========+
++---+----------+-------------------------------------------+--------+
 |   | Original | The final report covers the choice of     | Medium |
 |   |          | materials                                 |        |
 +---+----------+-------------------------------------------+--------+
@@ -338,7 +338,7 @@ reasonable computational time.
 |   |                | reasonable performance   |        |
 |   |                | compared to other        |        |
 |   |                | similar software         |        |
-+===+================+==========================+========+
++---+----------------+--------------------------+--------+
 |   | Original       | The code has been        | Medium |
 |   |                | profiled and major       |        |
 |   |                | unnecessary bottlenecks  |        |
@@ -360,7 +360,7 @@ are written in parallel to forementioned additions and expansions.
 +---+----------+----------------------------------------+-----------+
 |   | Original | CI test framework is in place for unit | Very High |
 |   |          | and integration tests                  |           |
-+===+==========+========================================+===========+
++---+----------+----------------------------------------+-----------+
 |   | Original | System test is in place (script for    | High      |
 |   |          | benchmark run with known materials or  |           |
 |   |          | manual test protocol)                  |           |
@@ -379,16 +379,16 @@ Stability
 
 +---+----------+-----------------------------------------------------------+--------+
 |   | Original | Unit tests cover edge-cases where reasonable              | High   |
-+===+==========+===========================================================+========+
++---+----------+-----------------------------------------------------------+--------+
 |   | Original | Code has been run on a large dataset without major issues | Medium |
 +---+----------+-----------------------------------------------------------+--------+
 
 Delivery
 ========
 
-== ======== ================================== ====
-\  Original All products are delivered on time High
-== ======== ================================== ====
++---+----------+------------------------------------+------+
+|   | Original | All products are delivered on time | High |
++---+----------+------------------------------------+------+
 
 Documentation
 =============
@@ -404,7 +404,7 @@ Technical Documentation
 +---+----------------+--------------------------+--------+
 |   | Original       | Sphinx documentation     | High   |
 |   |                | generated                |        |
-+===+================+==========================+========+
++---+----------------+--------------------------+--------+
 |   | Original       | Documentation hosted on  | Medium |
 |   |                | read-the-docs in         |        |
 |   |                | conjunction with GitHub  |        |
@@ -449,7 +449,7 @@ User’s Guide
 +---+----------+-----------------------------------------+----------+
 |   | Original | The user’s guide includes an            | High     |
 |   |          | Installation Guide                      |          |
-+===+==========+=========================================+==========+
++---+----------+-----------------------------------------+----------+
 |   | Original | The user’s guide includes a short       | Medium   |
 |   |          | overview                                |          |
 +---+----------+-----------------------------------------+----------+
@@ -471,7 +471,7 @@ Repository Documentation
 |   | Original | A README which guides user to other     | High     |
 |   |          | useful documents is available in the    |          |
 |   |          | repository                              |          |
-+===+==========+=========================================+==========+
++---+----------+-----------------------------------------+----------+
 |   | Original | A LICENSE has been chosen and is        | High     |
 |   |          | available in the repository             |          |
 +---+----------+-----------------------------------------+----------+
@@ -505,7 +505,7 @@ However, this does not mean than maintainability should be disregarded.
 |   | Original       | The source code is      | Very High |
 |   |                | hosted on a git         |           |
 |   |                | repository              |           |
-+===+================+=========================+===========+
++---+----------------+-------------------------+-----------+
 |   | Original       | A CONTRIBUTING file is  | High      |
 |   |                | available in the        |           |
 |   |                | repository and explains |           |
