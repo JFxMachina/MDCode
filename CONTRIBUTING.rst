@@ -51,6 +51,9 @@ Pull requests into the `main <https://github.com/JFxMachina/MDCode/main/>`__ bra
 
 If the pull request closes some issue, it should be marked in the message.
 
+Reviewer should check, that all tests pass, there is reasonable unit test coverage for the added features and that code quality standards are met. If a pull request closes an issue, reviewers should check that the issue has been correctly and completely adressed and solved.
+
+
 Coding Standard
 ================
 
