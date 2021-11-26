@@ -6,10 +6,10 @@ MDCode is a high-throughput molecular dynamics program based on the ASE and ASAP
 User's Guide
 ============
 
-WIP
+For information on how to setting up MDCode, getting started using it and running some simple examples, please refer to `GUIDE.rst <https://github.com/JFxMachina/MDCode/blob/main/GUIDE.rst>`_.
 
 ..
-  # FIXME : Add user's guide. Should be on read-the-docs
+  # FIXME : Add user's guide. Should also be/linked to on read-the-docs
 
 Documentation
 =============
