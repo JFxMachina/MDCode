@@ -1,12 +1,20 @@
-**Project Plan**
+============
+Project Plan
+============
+--------------------------------------------------------------------------------
+Collaborative Software Engineering in Computational Physics 2021 Group 1 Project
+--------------------------------------------------------------------------------
 
-**Involved parties**
+Involved parties
+================
 
 The stakeholders are Project-Group 1 and the customer, Rickard Armiento.
 
-**Introduction**
+Introduction
+============
 
-**Background**
+Background
+----------
 
 The design of new materials with desired properties is a crucial step in
 making innovative technologies viable. A typical challenge in materials
@@ -23,7 +31,8 @@ throughput to produce large, openly available, databases of
 theoretically predicted materials properties that are a major asset for
 addressing materials design challenges.
 
-**Overview**
+Overview
+--------
 
 The project team will participate in the development of materials design
 via high-throughput materials simulations and materials databases by
@@ -41,7 +50,8 @@ present trends in database-driven materials design. The project is meant
 to keep a high scientific and technical standard, providing
 documentation in the form of relevant reports and a final presentation.
 
-**Aims and Goals**
+Aims and Goals
+--------------
 
 -  Design, implement, and operate a Molecular Dynamics (MD) program.
    This will require the team members to get insight into the inner
@@ -71,9 +81,11 @@ documentation in the form of relevant reports and a final presentation.
    via custom-made materials simulations based on molecular dynamics,
    making the resulting data available as open data.
 
-**Project Phases**
+Project Phases
+==============
 
-**Initiation phase**
+Initiation phase
+----------------
 
 -  Lay out the aim, scope and goals of the project, as described above.
 
@@ -81,20 +93,23 @@ documentation in the form of relevant reports and a final presentation.
 
 -  Create and signing a group contract
 
-**Planning/Preparation phase**
+Planning/Preparation phase
+--------------------------
 
 -  Create SRS and Project plan and have them approved by the customer.
 
 -  Set up GitHub repository and project organization.
 
-**Execution phase**
+Execution phase
+---------------
 
 Divided into development phases and separated by milestones. Milestones
 are defined with the help of epics to clearly signify when a phase is
 done. A list of epics follows, grouped up to the development phase they
 belong to.
 
-**Development Phase 1**
+Development Phase 1
+-------------------
 
 -  Create a uniform software development environment for all team
    members.
@@ -108,7 +123,8 @@ belong to.
 
 -  Set up the initial structure for documentation.
 
-**Development Phase 2**
+Development Phase 2
+-------------------
 
 -  Write a validation module and validate the MD code for accuracy with
    respect to literature.
@@ -123,7 +139,8 @@ belong to.
 
 -  Create an interface between the MD code and data analysis suite.
 
-**Development Phase 3**
+Development Phase 3
+-------------------
 
 -  Write a module which formats data to be used by utility libraries for
    OPTIMADE.
@@ -131,7 +148,8 @@ belong to.
 -  Perform the High throughput Molecular dynamics run, analyse results,
    and upload to the OPTIMADE network of databases via the API.
 
-**Development Phase 4**
+Development Phase 4
+-------------------
 
 -  Finalise documentation for all feature sets worked upon in previous
    development phases.
@@ -139,30 +157,36 @@ belong to.
 -  Create an interactive presentation for the customer exhibiting the
    features of the code.
 
-**End phase**
+End phase
+---------
 
 1. Deliver product (this includes the code and documentation) and final
    reports.
 
 2. Present the product to the customer.
 
-**Organization Plan**
+Organization Plan
+=================
 
 The structure of the team/organization is as follows:
 
-Chi Xiao Project leader, Developer
+**Costumer and expert**: Rickard Armiento
 
-Utkarsh Singh Scrum master, Developer
+**Supervisor**: Abhijith S Parackal
 
-Joel Fischer Product owner, Developer
+**Project team**:
 
-Mehdi Nourazar Testing responsible, Developer
+==================== ================================
+Chi Xiao             Project leader, Developer
+Utkarsh Singh        Scrum master, Developer
+Joel Fischer         Product owner, Developer
+Mehdi Nourazar       Testing responsible, Developer
+Danial Shafizadeh    Documentation keeper, Developer
+Gabriel Persson      Developer
+==================== ================================
 
-Daniel Shafizadeh Documentation keeper, Developer
-
-Gabriel Persson Developer
-
-**Document Plan**
+Document Plan
+=============
 
 As also specified in the Project directive and SRS, structured and
 standardized documentation will be generated in parallel to the
@@ -171,14 +195,16 @@ deliverables would be the SRS, Project plan, User Guide and a technical
 manual (mostly auto-generated documentation) which details how the
 software works internally.
 
-**Training Plan**
+Training Plan
+=============
 
 Project group 1 will be trained in aspects of modern collaborative
 software engineering practices through hands-on sessions as part of the
 course. The group may also schedule independent work sessions to better
 understand certain practical aspects of Software development.
 
-**Report plan**
+Report plan
+===========
 
 The customer will be informed of the progress in execution phase after
 each sprint review meeting. After fulfilment of project closure
@@ -187,11 +213,13 @@ the customer, as specified in the Project directive and SRS. The final
 project report will be delivered to the customer individually as the
 final part of the project.
 
-**Meeting plan**
+Meeting plan
+============
 
 The meeting plan is dictated by the project phases.
 
-**Before the execution phase:**
+Before the execution phase:
+---------------------------
 
 -  Project group 1 meet for discussion and approval (internal) of the
    SRS.
@@ -207,7 +235,8 @@ The meeting plan is dictated by the project phases.
    Plan. After suggestions are implemented, approval is sought from the
    customer again.
 
-**During the execution phase:**
+During the execution phase:
+---------------------------
 
 -  A sprint planning meeting is scheduled to create a product backlog
    and breakdown epics into stories to assign tasks.
@@ -217,7 +246,8 @@ The meeting plan is dictated by the project phases.
 -  A final sprint review meeting at the end of each sprint, with the
    meeting notes communicated to the customer.
 
-**After the execution phase:**
+After the execution phase:
+--------------------------
 
 -  Internal review meeting to discuss if all of project deliverables are
    met and the closing condition is achieved.
@@ -225,9 +255,11 @@ The meeting plan is dictated by the project phases.
 -  A meeting with the customer is scheduled to demonstrate the working
    software.
 
-**Resource Plan**
+Resource Plan
+=============
 
-**Scientific software**
+Scientific software
+-------------------
 
 -  The MD program will be built using the ASAP and ASE software
    libraries, which should be helpful for this implementation. It is
@@ -243,7 +275,8 @@ The meeting plan is dictated by the project phases.
 -  Helper software is available at
    https://github.com/Materials-Consortia/optimade-python-tools
 
-**Development tools**
+Development tools
+-----------------
 
 -  PyTest, git and GitHub’s CI/CD (Actions) functionality will be used
    to automate testing and the development workflow.
@@ -256,24 +289,27 @@ The meeting plan is dictated by the project phases.
 -  Sphinx, pyTest and git are free and open-source, and can be
    downloaded and installed on most computers.
 
-**Time and computational resources**
+Time and computational resources
+--------------------------------
 
 The team is expected to do most of the development in the university
 computer labs or on their own personal computers.
 
-**Milestones**
+Milestones
+==========
 
 The milestones mark the end between the development phases and is listed
 below in categories grouping them to the phase that they signify the end
 of. They also have a global number for ease of reference.
 
-**Development phase 1**
-
+Development phase 1
+-------------------
 1. Performed the first MD run using an input file.
 
 2. Visualizing one property for one calculation.
 
-**Development phase 2**
+Development phase 2
+-------------------
 
 3. Validation runs have good agreement with literature.
 
@@ -282,7 +318,8 @@ of. They also have a global number for ease of reference.
 5. The code can run a batch calculation of at least 10 materials and
 automatically plot data using the results.
 
-**Development phase 3**
+Development phase 3
+-------------------
 
 6. A large dataset of input materials has been simulated and the
 respective results are available.
@@ -290,7 +327,8 @@ respective results are available.
 7. The results from the high-throughput run have been analysed and are
 available via our OPTIMADE implementation.
 
-**Development phase 4**
+Development phase 4
+-------------------
 
 8. Final iterations of User’s guide, Technical Documentation and Project
 reports are ready.
@@ -298,7 +336,8 @@ reports are ready.
 9. Interactive presentation of completed project for the customer is
 ready.
 
-**Risk analysis**
+Risk analysis
+=============
 
 The identified risks are analysed, and their impact is minimized as
 detailed in the ‘\ `Procedure for risk
@@ -306,9 +345,11 @@ analysis <https://teams.microsoft.com/l/file/76B9D9E9-AA20-4C2F-8FDF-E148DF7D5FB
 (shared on Teams). The major risks to this project are identified and
 analysed here.
 
-**Identified Risks**
+Identified Risks
+----------------
 
 Technical risks:
+^^^^^^^^^^^^^^^^
 
 -  Poor testing, validation and documentation quality
 
@@ -339,7 +380,8 @@ Technical risks:
    next sprint to accommodate this event and, if needed, re-negotiating
    the scope of the feature set.
 
-Financial risks
+Financial risks:
+^^^^^^^^^^^^^^^^
 
 -  Improper allocation of project budget
 
@@ -359,7 +401,8 @@ Financial risks
 -  The risk impact is minimized by tracking and updating the backlog
    through the sprint if needed.
 
-Resource risks
+Resource risks:
+^^^^^^^^^^^^^^^
 
 -  Loss of software resources (e.g., version conflicts in project
    dependencies)
@@ -381,11 +424,13 @@ Resource risks
    co-owner to the same task which ensures the reduction of knowledge
    loss if this event occurs.
 
-| **Priorities**
-| The priorities for this project are as listed in the SRS. Overall, the
-  priority among the deliverables is set as follows. Note that at the
-  end of a sprint, negotiating with the customer to re-prioritize the
-  list is a possibility.
+Priorities
+==========
+
+The priorities for this project are as listed in the SRS. Overall, the
+priority among the deliverables is set as follows. Note that at the
+end of a sprint, negotiating with the customer to re-prioritize the
+list is a possibility.
 
 +--------------------------------------------+----------+------------+
 | Deliverables                               | Priority | Negotiable |
@@ -430,7 +475,8 @@ Resource risks
 | -  Final report                            |          |            |
 +--------------------------------------------+----------+------------+
 
-**Project Closing**
+Project Closing
+===============
 
 Closing condition: The project deliverables are met, and the end-product
 is presented with a live demonstration.
