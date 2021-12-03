@@ -25,6 +25,4 @@ Checklist:
 Mention
 =======
 
-Mention contributors you think should see this.
-
-@JFxMachina
+Mention contributors you think should see this using '@<github-handle>'.
