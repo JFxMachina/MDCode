@@ -160,10 +160,10 @@ Development Phase 4
 End phase
 ---------
 
-1. Deliver product (this includes the code and documentation) and final
+-  Deliver product (this includes the code and documentation) and final
    reports.
 
-2. Present the product to the customer.
+-  Present the product to the customer.
 
 Organization Plan
 =================
@@ -304,6 +304,7 @@ of. They also have a global number for ease of reference.
 
 Development phase 1
 -------------------
+
 1. Performed the first MD run using an input file.
 
 2. Visualizing one property for one calculation.
@@ -315,26 +316,21 @@ Development phase 2
 
 4. The MD code can run on the supercomputer.
 
-5. The code can run a batch calculation of at least 10 materials and
-automatically plot data using the results.
+5. The code can run a batch calculation of at least 10 materials and automatically plot data using the results.
 
 Development phase 3
 -------------------
 
-6. A large dataset of input materials has been simulated and the
-respective results are available.
+6. A large dataset of input materials has been simulated and the respective results are available.
 
-7. The results from the high-throughput run have been analysed and are
-available via our OPTIMADE implementation.
+7. The results from the high-throughput run have been analysed and are available via our OPTIMADE implementation.
 
 Development phase 4
 -------------------
 
-8. Final iterations of User’s guide, Technical Documentation and Project
-reports are ready.
+8. Final iterations of User’s guide, Technical Documentation and Project reports are ready.
 
-9. Interactive presentation of completed project for the customer is
-ready.
+9. Interactive presentation of completed project for the customer is ready.
 
 Risk analysis
 =============
